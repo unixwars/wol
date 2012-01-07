@@ -1,0 +1,9 @@
+Minimal Wake-On-LAN Python implementation.
+
+Your NIC must support MagicPacket WOL.
+Set it up with `ethtool -s eth1 wol g` if needed.
+
+Usage:
+    wol AA:BB:CC:DD:EE:FF
+
+If used without parameters it uses a default MAC address.
